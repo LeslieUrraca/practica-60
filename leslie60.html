@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+  function f1(x)
+  {
+    function f2(y)
+    {
+      document.write('Función exterior:'+x+'<br>');
+      document.write('Función anidada:'+y+'<br>');
+      document.write('variable local de la función exterior:'+z+'<br>');
+    }
+    
+    var z=1;
+    f2(2);
+  }
+
+  f1(3);
+</script>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+   
